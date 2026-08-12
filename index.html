@@ -16,8 +16,7 @@
   </style>
 </head>
 <body>
-  <section class="main-container">
-    <main class="comments-list">
+  <section class="main-container" id="root">
       <!-- <article class="comment-card">
         <div class="comment-container-left">
           <button type="button" class="score-btn"><img src="./images/icon-plus.svg" alt=""></button>
@@ -130,7 +129,6 @@
         <textarea name="comment" id="comment" rows="3" placeholder="Add a comment..."></textarea>
         <button type="submit">Send</button>
       </form> -->
-    </main>
   </section>
   <div class="modal-overlay hidden" id="delete-modal">
     <div class="modal-card">
@@ -144,5 +142,5 @@
   </div>
 
 </body>
-<script src="script.js"></script>
+<script type="module" src="/src/main.jsx"></script>
 </html>
